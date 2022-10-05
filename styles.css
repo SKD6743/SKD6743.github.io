@@ -1,0 +1,240 @@
+/*h1与body默认*/
+h1 {
+  color: deeppink;
+}
+body {
+  background-image:url("3bizhi.jpg");
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  margin: 0;
+  padding: 0;
+}
+/*header*/
+.header{
+  display: inline;
+  background-color: deepskyblue;
+  opacity: 0.94;
+  height: 80px;
+  width: 100%;
+  margin-top: 0;
+  padding-top: 0;
+  border-bottom: 4mm ridge rgba(211,220,50,.6);
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+.header-logo{
+  display: inline;
+  width: 40%;
+  height: 100%;
+  float: left;
+  margin-left: 2%;
+}
+.header-head{
+  display: inline;
+  width: 10%;
+  height: 100%;
+  float: left;
+  margin-left: 0;
+}
+/*网址超链接*/
+.nondecoration{
+  text-decoration:none;
+}
+
+a:hover {
+  color: cornflowerblue;
+  text-decoration: none;
+  background-color: rgba(241,243,244,.3);
+}
+
+/*content*/
+.ulcontent{
+  display: flex;
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+.content-left-top{
+  display: block;
+  width: 25%;
+  float:left;
+}
+.content-right-top{
+  display: block;
+  width: 75%;
+  float:left;
+}
+
+
+.card{
+  display: flex;
+  width: 100%;
+  border: 0;
+  margin-left: 14px;
+  flex-wrap: wrap;
+}
+.ul1{
+  display: flex;
+  list-style: none;
+  padding: 0;
+  flex-wrap: wrap
+}
+.li1{
+  width: 112px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: center;
+}
+.roundbutton{
+  width: 48px;
+  height: 48px;
+  border-radius: 100%;
+  border: 0;
+  background-color: white;
+}
+.roundbutton:hover{
+  border: solid;
+  border-radius: 5em;
+  width: 60px;
+  height: 60px;
+  border: 60px;
+  border: #222222;
+  background-color: cornflowerblue;
+}
+
+
+.card-top{
+  display: flex;
+  height: 116px;
+  margin-left: 14px;
+  border: 0;
+  flex-wrap: wrap
+}
+.card-link{
+  align-items: center;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  height: 112px;
+  width: 112px;
+  position: relative;
+  text-decoration:none;
+}
+.card-img{
+  align-items: center;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  height: 48px;
+  width: 48px;
+  margin-top: 16px;
+  justify-content: center;
+}
+.card-name{
+  align-items: center;
+  color: deeppink;
+  display: flex;
+  height: 32px;
+  line-height: 16px;
+  margin-top: 6px;
+  padding: 2px 8px;
+  width: 88px;
+  justify-content: center;
+}
+
+
+.content-table{
+  display: block;
+  width: 80%;
+  background-color: white;
+  opacity:0.8;
+}
+/*按钮内图片尺寸*/
+.imgsize{
+  max-width: 24px;
+  max-height: 24px;
+}
+/*gif*/
+.gif{
+  width: 17vw;
+  height: 17vh;
+}
+/*subbutton*/
+.subbutton{
+  border: solid;
+  background-color: rgba(26,115,232,1);
+  border-radius: 6px;
+  color: white;
+  height: 33px;
+  width: 60px;
+}
+.subtext{
+  border: none;
+  border-radius: 6px;
+  background-color: pink;
+  height: 28px;
+}
+/*table*/
+table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  border: 3px solid purple;
+}
+
+thead th:nth-child(1) {
+  width: 30%;
+}
+
+thead th:nth-child(2) {
+  width: 20%;
+}
+
+thead th:nth-child(3) {
+  width: 15%;
+}
+
+thead th:nth-child(4) {
+  width: 35%;
+}
+
+th, td {
+  padding: 20px;
+}
+
+html {
+  font-family: 'helvetica neue', helvetica, arial, sans-serif;
+}
+
+thead th, tfoot th {
+  font-family: 'Rock Salt', cursive;
+}
+
+th {
+  letter-spacing: 2px;
+}
+
+td {
+  letter-spacing: 1px;
+}
+
+tbody td {
+  text-align: center;
+}
+
+tfoot th {
+  text-align: right;
+}
+caption {
+  font-family: 'Rock Salt', cursive;
+  padding: 20px;
+  font-style: italic;
+  caption-side: bottom;
+  color: #666;
+  text-align: right;
+  letter-spacing: 1px;
+}
